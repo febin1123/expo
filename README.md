@@ -1,2 +1,6 @@
 # expo
-files from training mlai banglore with expertshub
+
+Expersub projects
+
+1. Unserstanding ML
+2. Learning Python
