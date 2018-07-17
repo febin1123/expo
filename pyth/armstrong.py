@@ -1,5 +1,5 @@
 num=int(input('Enter a number: '))
-s=len(num)
+s=len(str(num))
 print(s)
 temp=num
 sum=0

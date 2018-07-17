@@ -12,3 +12,28 @@
         -------------------
         37 = 3x2**2 + 8x2**1 + 9x2**0
         => DN(37)=389
+---------------------------------------------------------
+
+
+1. Factorial using recursion
+2. Fibonacci using recursion
+3. AP-GP series
+4. Pallindrome Number
+5. Pallindrome String without using reverse()
+6. Prime Check
+7. Next Prime number
+8. Character Count
+9. Word Count
+10. Character Sort
+11. Word Sort
+12. Tower of Hanoi        
+--------------------------------------------------------------------
+
+1	0	0	1	1	0					
+1	0	1	0	1	1			^		
+1	0	1	1	0	1		<	(M)	>	
+1	0	0	1	1	1			v		
+1	1	0	1	0	0					
+1	1	1	1	0	0					Start: (0,0)
+										End: (0,3)
+										Find the optimal path.
