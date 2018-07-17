@@ -11,3 +11,12 @@ elif obj>15:
 else:
     print('Smaller')
 print('Outside ifelse')    
+obj2=280
+while obj2<=300:
+	print(obj2)
+	obj2+=1
+l=['aa','bb','cc']	
+for iteration in l:	
+	print('iteration')
+for iteration in range(1,7):	
+	print('iteration',iteration)	

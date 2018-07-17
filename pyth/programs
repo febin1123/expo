@@ -1,0 +1,14 @@
+1. Find if a number is even/odd
+2. Find the greater number among 3 numbers
+---------------------------------------------
+3. Fibonacci Series
+4. Factorial
+5. Armgstrong number
+    (eg: 153 = 1**3 + 5**3 + 3**3)
+6. Decimal to Binary
+7. Deciberry Number
+    eg: 17 = 4x2**1 + 9x2**0
+        => DN(17) = 49
+        -------------------
+        37 = 3x2**2 + 8x2**1 + 9x2**0
+        => DN(37)=389
