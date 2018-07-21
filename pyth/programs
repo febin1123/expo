@@ -1,4 +1,4 @@
-1. Find if a number is even/odd
+s1. Find if a number is even/odd
 2. Find the greater number among 3 numbers
 ---------------------------------------------
 3. Fibonacci Series
@@ -37,3 +37,29 @@
 1	1	1	1	0	0					Start: (0,0)
 										End: (0,3)
 										Find the optimal path.
+1. Create a shop inventory with items:
+    {'Soap','Chocolates','Cold-drinks'
+     'Fruits','Chips','Ice-cream'}
+    Each item will have:
+        * count of items in inventory
+        * individual price
+        * total price
+        * date of last purchase
+    Display a menu with all items in inventory,
+    Enable purchase of 1 or more items.
+    Create a final bill for all items purchased.
+
+    -------------------------------------------------
+    Create a simple block chain:
+Block: [ head | body | timestamp | tail]
+    head: [ id | prev_id | count]
+    body: [ list of transactions]
+            =>each transaction = [ name | amount]
+    timestamp: time of creation
+    tail: [ next_id | last_modified ]
+ 
+1. Create a blockchain of minimum 3 block.
+2. Allow dynamic creation of block-chain.
+
+===================================================================
+https://pandas.pydata.org/pandas-docs/stable/10min.html
